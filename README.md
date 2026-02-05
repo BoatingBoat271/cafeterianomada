@@ -1,31 +1,29 @@
-# ☕ Café Nómada — Landing Page
+# ☕ Café Nómada
 
-Landing page para la cafetería ficticia "Café Nómada". Desarrollada con HTML5, Bootstrap 5 y JavaScript vanilla.
+Landing page para la cafetería "Café Nómada". Desarrollada con HTML5, Bootstrap 5 y JavaScript vanilla.
 
-**Demo**
-- https://boatingboat271.github.io/Cafenomada/
-- https://boatingboat271.github.io/landing-page-cafe-nomada/
+Demo
 
-**Incluye**
-- One-page responsive
-- Secciones: Hero, Nosotros, Menú, Galería, Para llevar, Reseñas, Contacto y Ubicación
-- Componentes Bootstrap: Navbar, Cards, Carrusel, Formularios, Modal
-- Validación de formulario y smooth scroll
-- Mapa embebido
+https://boatingboat271.github.io/cafeterianomada/
+Repo
 
-**Estructura**
-- `index.html`
-- `assets/css/style.css`
-- `assets/js/main.js`
-- `assets/img/`
+https://github.com/BoatingBoat271/Cafeterianomada.git
+Incluye
 
-**Repo**
-- https://github.com/BoatingBoat271/Cafenomada.git
+One-page responsive
+Secciones: Hero, Nosotros, Menú, Galería, Para llevar, Reseñas, Contacto y Ubicación
+Componentes Bootstrap: Navbar, Cards, Carrusel, Formularios, Modal
+Validación de formulario y smooth scroll
+Mapa embebido
+Estructura
 
-**Créditos**
-- Pablomarelly — https://pablomarelly.cl/
+index.html
+assets/css/style.css
+assets/js/main.js
+assets/img/
+Créditos
 
-**Últimos cambios**
-- 05-02-2026: Añadida fuente `Inter` y color de marca `#b5723f` para botones; mejoras visuales en las tarjetas (hover/animación).
+Pablomarelly — https://pablomarelly.cl/
+Últimos cambios
 
-_(Se actualizó la demo pública con estos cambios.)_
+05-02-2026: Añadida fuente Inter y color de marca #b5723f para botones; mejoras visuales en las tarjetas (hover/animación).
