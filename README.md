@@ -35,10 +35,5 @@ python -m http.server 8000
 Repositorio
 - Código fuente: https://github.com/BoatingBoat271/Cafenomada.git
 
-Notas y próximos pasos sugeridos
-- Si deseas que el formulario envíe datos a un backend real, puedo integrar Formspree/Netlify Forms o una función serverless.
-- Puedo optimizar imágenes y añadir `srcset` para mejorar performance.
-- Si quieres, preparo el `.zip` listo para entrega y una breve nota para la rúbrica.
-
-Contacto
-- Si quieres que haga alguno de los pasos anteriores (publicar, optimizar, integrar envío real), dime cuál y lo hago.
+## Créditos
+- Diseño y desarrollo por Pablomarelly — https://pablomarelly.cl/
