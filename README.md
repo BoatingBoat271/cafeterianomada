@@ -1,41 +1,43 @@
 # ☕ Café Nómada — Landing Page (Proyecto EF-M2)
 
-Landing page one-page y responsive para la cafetería ficticia "Café Nómada", desarrollada con Bootstrap 5, HTML5 semántico y JavaScript (vanilla).
+Bienvenido/a. Esta es la landing page de ejemplo para la cafetería ficticia "Café Nómada", creada como proyecto integrador del módulo EF-M2. Está construida con HTML5 semántico, Bootstrap 5 y JavaScript (vanilla). La versión publicada está disponible en GitHub Pages.
 
-## 📋 Resumen
-- Alternativa: B — Landing para Restaurante/Cafetería
-- Tecnologías: HTML5, Bootstrap 5, CSS, JavaScript (sin jQuery), Git
+Demo en vivo
+- https://boatingboat271.github.io/Cafenomada/
 
-## 🧭 Estructura del proyecto
-- `index.html` — archivo principal
+Qué incluye
+- Página de una sola sección (one-page) y completamente responsive.
+- Secciones: Hero, Nosotros, Menú destacado, Galería (carrusel), Para llevar, Reseñas, Contacto/Reserva y Ubicación.
+- Componentes Bootstrap usados: Navbar, Cards, Carrusel, Formularios, Modal, Utilities.
+- Interactividad: formulario con validación y confirmación en Modal, smooth scroll, animaciones de aparición y mapa embebido.
+
+Estructura del proyecto
+- `index.html` — página principal
 - `assets/css/style.css` — estilos personalizados
 - `assets/js/main.js` — lógica e interactividad (vanilla JS)
-- `assets/img/` — imágenes
+- `assets/img/` — imágenes usadas en la página
 
-## ✅ Estado de cumplimiento (pauta EF-M2)
-- Estructura semántica: `header`, `main`, `section`, `footer` — presente.
-- Uso de Bootstrap Grid y componentes: Navbar, Cards, Carrusel, Formularios, Modal — presente.
-- Interactividad: formulario con `submit` interceptado, validación y modal de confirmación — presente.
-- Responsive: diseñado con Bootstrap y pruebas básicas realizadas.
+Estado frente a la pauta EF-M2
+- Alternativa elegida: B — Landing para cafetería.
+- Requisitos cumplidos: estructura semántica, uso de Bootstrap (grid y componentes), al menos 5 componentes, formulario con `preventDefault()` y validación, diseño responsive, control de versiones.
 
-## 📌 Enlace al repositorio remoto
-Repositorio: https://github.com/BoatingBoat271/Cafenomada.git
-
-## 📥 Cómo subir tu proyecto a GitHub (si aún no lo hiciste)
-1. Crea un repositorio público en GitHub.
-2. En tu terminal dentro de la carpeta del proyecto ejecuta:
+Cómo ejecutar localmente
+1. Abre una terminal y sitúate en la carpeta del proyecto.
+2. Abre `index.html` en tu navegador (doble clic) o usa un servidor local:
 
 ```powershell
-git remote add origin https://github.com/tu-usuario/nombre-repo.git
-git branch -M main
-git push -u origin main
+# Servidor rápido con Python (opcional)
+python -m http.server 8000
+# luego visita http://localhost:8000
 ```
 
-Si prefieres usar la CLI `gh` (GitHub CLI), después de autenticar ejecuta:
+Repositorio
+- Código fuente: https://github.com/BoatingBoat271/Cafenomada.git
 
-```powershell
-gh repo create nombre-repo --public --source=. --remote=origin --push
-```
+Notas y próximos pasos sugeridos
+- Si deseas que el formulario envíe datos a un backend real, puedo integrar Formspree/Netlify Forms o una función serverless.
+- Puedo optimizar imágenes y añadir `srcset` para mejorar performance.
+- Si quieres, preparo el `.zip` listo para entrega y una breve nota para la rúbrica.
 
----
-Si quieres, puedo intentar crear el repo remoto por ti (necesitaré que instales y autentiques `gh` o que me proporciones la URL remota).
+Contacto
+- Si quieres que haga alguno de los pasos anteriores (publicar, optimizar, integrar envío real), dime cuál y lo hago.
