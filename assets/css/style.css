@@ -2,6 +2,17 @@ body {
   background-color: #f5f0e8;
 }
 
+/* Variables de tema */
+:root{
+  --brand: #b5723f;
+  --brand-dark: #9a5d2f;
+}
+
+/* Fuente principal */
+body{
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
 /* Layout navbar */
 .nav-layout {
   display: flex;
@@ -200,4 +211,23 @@ body {
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Estilos de botones personalizados (marca) */
+.btn-primary, .btn-dark {
+  background-color: var(--brand) !important;
+  border-color: var(--brand) !important;
+  color: #fff !important;
+}
+.btn-primary:hover, .btn-dark:hover {
+  background-color: var(--brand-dark) !important;
+  border-color: var(--brand-dark) !important;
+}
+.btn-outline-dark {
+  color: var(--brand) !important;
+  border-color: var(--brand) !important;
+}
+.btn-outline-dark:hover {
+  background-color: var(--brand) !important;
+  color: #fff !important;
 }
