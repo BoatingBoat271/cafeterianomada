@@ -24,3 +24,8 @@ Landing page para la cafetería ficticia "Café Nómada". Desarrollada con HTML5
 
 **Créditos**
 - Pablomarelly — https://pablomarelly.cl/
+
+**Últimos cambios**
+- 05-02-2026: Añadida fuente `Inter` y color de marca `#b5723f` para botones; mejoras visuales en las tarjetas (hover/animación).
+
+_(Se actualizó la demo pública con estos cambios.)_
