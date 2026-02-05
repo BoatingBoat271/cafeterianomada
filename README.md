@@ -19,9 +19,7 @@ Landing page one-page y responsive para la cafetería ficticia "Café Nómada", 
 - Responsive: diseñado con Bootstrap y pruebas básicas realizadas.
 
 ## 📌 Enlace al repositorio remoto
-Por favor agrega aquí el enlace al repositorio público en GitHub una vez creado:
-
-- Repositorio: (rellenar con la URL pública)
+Repositorio: https://github.com/BoatingBoat271/Cafenomada.git
 
 ## 📥 Cómo subir tu proyecto a GitHub (si aún no lo hiciste)
 1. Crea un repositorio público en GitHub.
