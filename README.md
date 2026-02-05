@@ -4,6 +4,7 @@ Bienvenido/a. Esta es la landing page de ejemplo para la cafetería ficticia "Ca
 
 Demo en vivo
 - https://boatingboat271.github.io/Cafenomada/
+- Versión anterior (demo antigua): https://boatingboat271.github.io/landing-page-cafe-nomada/
 
 Qué incluye
 - Página de una sola sección (one-page) y completamente responsive.
