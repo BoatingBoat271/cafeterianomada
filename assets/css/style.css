@@ -1,23 +1,23 @@
-/* Color de fondo de la página */
 body {
   background-color: #f5f0e8;
 }
 
-.nav-layout{
+/* Layout navbar */
+.nav-layout {
   display: flex;
   align-items: center;
   gap: .75rem;
 }
 
-/* Caja fija izquierda */
-.brand-box{
+/* Caja del logo y marca */
+.brand-box {
   flex: 0 0 auto;
   display: flex;
   align-items: center;
 }
 
-/* Link del brand con contenedor */
-.brand-link{
+/* Link del brand */
+.brand-link {
   display: flex;
   align-items: center;
   gap: .55rem;
@@ -30,7 +30,7 @@ body {
 }
 
 /* Logo circular */
-.logo-mask{
+.logo-mask {
   width: 140px;
   height: 140px;
   border-radius: 50%;
@@ -43,7 +43,8 @@ body {
   border: 2px solid rgba(0,0,0,.1);
   box-sizing: border-box;
 }
-.logo-mask img{
+
+.logo-mask img {
   width: 140%;
   height: 140%;
   object-fit: cover;
@@ -52,34 +53,35 @@ body {
   transform: scale(1.35);
 }
 
-.brand-name{
+.brand-name {
   font-weight: 600;
   color: #111;
   line-height: 1;
 }
 
-/* Menú ocupa el resto */
-.nav-grow{
+/* El menú crece y ocupa el espacio disponible */
+.nav-grow {
   flex: 1 1 auto;
 }
 
-/* Navbar más compacta */
-.navbar{
+/* Navbar compacta */
+.navbar {
   padding-top: .4rem;
   padding-bottom: .4rem;
   transition: box-shadow 0.3s ease;
 }
 
+/* Sombra al hacer scroll */
 .navbar.scrolled {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.navbar .navbar-brand{
+.navbar .navbar-brand {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-/* Sección HERO con imagen de fondo */
+/* Hero con imagen de fondo */
 .hero-section {
   background-image: url('../img/hero-cafe-nomada.jpg');
   background-size: cover;
@@ -89,6 +91,7 @@ body {
   position: relative;
 }
 
+/* Overlay oscuro para el hero */
 .hero-overlay {
   background: rgba(0, 0, 0, 0.5);
   min-height: 500px;
@@ -96,6 +99,7 @@ body {
   align-items: center;
 }
 
+/* Responsive en móvil */
 @media (max-width: 768px) {
   .hero-section {
     min-height: 400px;
@@ -105,7 +109,7 @@ body {
   }
 }
 
-/* Imagen sección para llevar */
+/* Imagen para la sección llevar */
 .section-img {
   max-height: 400px;
   width: 100%;
@@ -137,23 +141,27 @@ body {
   height: 200px;
   object-fit: cover;
   width: 100%;
-  transition: transform 0.3s ease;
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.4s ease;
 }
 
 .card:hover .card-img {
-  transform: scale(1.05);
+  transform: scale(1.12) rotate(1deg);
+  filter: brightness(1.1);
 }
 
+/* Efecto hover en las cards */
 .card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.15) !important;
+  transform: translateY(-8px) translateX(-2px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2) !important;
+  background-color: #fafaf8;
 }
 
-/* Botón volver arriba */
+/* Botón para volver arriba */
 .btn-top {
   position: fixed;
   bottom: 30px;
@@ -182,7 +190,7 @@ body {
   display: flex;
 }
 
-/* Animaciones fade-in */
+/* Animación fade-in */
 .fade-in {
   opacity: 0;
   transform: translateY(30px);

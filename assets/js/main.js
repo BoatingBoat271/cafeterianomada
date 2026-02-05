@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-  // Validación formulario (vanilla JS)
+  // Validación del formulario
   (function () {
     const form = document.getElementById('form-contacto');
     if (!form) return;
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-      // eliminar alertas previas
+      // Limpia alertas previas
       Array.from(form.querySelectorAll('.alert')).forEach(a => a.remove());
 
       if (!nombre || !correo || !fecha || !personas) {
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   })();
 
-  // Scroll suave y cerrar menú móvil
+  // Scroll suave y cierra el menú en móvil
   document.querySelectorAll('.navbar a[href^="#"]').forEach(function (link) {
     link.addEventListener('click', function (e) {
       const hash = this.getAttribute('href');
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // Navbar con sombra al hacer scroll
+  // Sombra en navbar cuando haces scroll
   const navbar = document.querySelector('.navbar');
   function toggleNavbarShadow() {
     if (!navbar) return;
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('scroll', toggleNavbarShadow);
   toggleNavbarShadow();
 
-  // Botón volver arriba
+  // Botón para volver arriba
   const btnTop = document.getElementById('btnTop');
   function toggleBtnTop() {
     if (!btnTop) return;
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function () {
     toggleBtnTop();
   }
 
-  // Animaciones fade-in al hacer scroll
+  // Animaciones fade-in cuando ves los elementos
   function checkFadeIn() {
     document.querySelectorAll('.fade-in').forEach(function (el) {
       const rect = el.getBoundingClientRect();
@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function () {
   window.addEventListener('resize', checkFadeIn);
   checkFadeIn();
 
-  // Mapa Google
+  // Carga el mapa de Google
   const latitud = -37.4662;
   const longitud = -72.3731;
   

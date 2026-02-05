@@ -1,39 +1,26 @@
-# ☕ Café Nómada — Landing Page (Proyecto EF-M2)
+# ☕ Café Nómada — Landing Page
 
-Bienvenido/a. Esta es la landing page de ejemplo para la cafetería ficticia "Café Nómada", creada como proyecto integrador del módulo EF-M2. Está construida con HTML5 semántico, Bootstrap 5 y JavaScript (vanilla). La versión publicada está disponible en GitHub Pages.
+Landing page para la cafetería ficticia "Café Nómada". Desarrollada con HTML5, Bootstrap 5 y JavaScript vanilla.
 
-Demo en vivo
+**Demo**
 - https://boatingboat271.github.io/Cafenomada/
-- Versión anterior (demo antigua): https://boatingboat271.github.io/landing-page-cafe-nomada/
+- https://boatingboat271.github.io/landing-page-cafe-nomada/
 
-Qué incluye
-- Página de una sola sección (one-page) y completamente responsive.
-- Secciones: Hero, Nosotros, Menú destacado, Galería (carrusel), Para llevar, Reseñas, Contacto/Reserva y Ubicación.
-- Componentes Bootstrap usados: Navbar, Cards, Carrusel, Formularios, Modal, Utilities.
-- Interactividad: formulario con validación y confirmación en Modal, smooth scroll, animaciones de aparición y mapa embebido.
+**Incluye**
+- One-page responsive
+- Secciones: Hero, Nosotros, Menú, Galería, Para llevar, Reseñas, Contacto y Ubicación
+- Componentes Bootstrap: Navbar, Cards, Carrusel, Formularios, Modal
+- Validación de formulario y smooth scroll
+- Mapa embebido
 
-Estructura del proyecto
-- `index.html` — página principal
-- `assets/css/style.css` — estilos personalizados
-- `assets/js/main.js` — lógica e interactividad (vanilla JS)
-- `assets/img/` — imágenes usadas en la página
+**Estructura**
+- `index.html`
+- `assets/css/style.css`
+- `assets/js/main.js`
+- `assets/img/`
 
-Estado frente a la pauta EF-M2
-- Alternativa elegida: B — Landing para cafetería.
-- Requisitos cumplidos: estructura semántica, uso de Bootstrap (grid y componentes), al menos 5 componentes, formulario con `preventDefault()` y validación, diseño responsive, control de versiones.
+**Repo**
+- https://github.com/BoatingBoat271/Cafenomada.git
 
-Cómo ejecutar localmente
-1. Abre una terminal y sitúate en la carpeta del proyecto.
-2. Abre `index.html` en tu navegador (doble clic) o usa un servidor local:
-
-```powershell
-# Servidor rápido con Python (opcional)
-python -m http.server 8000
-# luego visita http://localhost:8000
-```
-
-Repositorio
-- Código fuente: https://github.com/BoatingBoat271/Cafenomada.git
-
-## Créditos
-- Diseño y desarrollo por Pablomarelly — https://pablomarelly.cl/
+**Créditos**
+- Pablomarelly — https://pablomarelly.cl/
